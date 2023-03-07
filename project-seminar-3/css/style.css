@@ -2,16 +2,138 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+}
+.center {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.top{
+
+}
 .top-header {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.top-header-logo {
     padding: 51px 0;
     margin: 0 0 21px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 500px;
 }
-.top-content-subtitle {
-    margin: 0 0 17px 0;
+.top-header-logo img {
+    width: 137px;
+    height: 40px;
+
 }
-.top-content-txt {
-    margin: 0 0 16px 0;
+.top-header-logo-list {
+    max-width: 533px;
+    width: 100%;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.menu-list-item-orange a {
+    color: #F25822;
+}
+.menu-list-item a {
+    color: #000000;
 }
 .top-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 39px;
+}
+.top-content-info {
     margin: 0 0 53px 0;
+    max-width: 522px;
+    width: 100%;
+    text-align: left;
+}
+.top-content-info-subtitle {
+    margin: 0 0 17px 0;
+    font-size: 60px;
+    line-height: 70px;
+}
+.top-content-info-txt {
+    margin: 0 0 16px 0;
+    max-width: 466px;
+    width: 100%;
+}
+.top-content-info-btn {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 72px;
+}
+.btn-start {
+    display: block;
+    border: none;
+    max-width: 140px;
+    width: 100%;
+    padding: 15px 36px 16px 35px;
+    box-sizing: border-box;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 18px;
+}
+.top-info-link{
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    font-size: 15px;
+    line-height: 18px;
+}
+.top-content-img {
+    width: 610px;
+    height: 372px;
+}
+.top-content-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.footer {
+
+}
+.footer-logo {
+    padding: 97px 0;
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+.footer-logo-link {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+.footer-logo-link-items {
+    width: 160px;
+    height: 50px;
+    background: url(5(2).png);
 }
